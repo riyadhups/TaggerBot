@@ -29,7 +29,7 @@ async def start(event):
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/qafqaztaggerbot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/Azeqafqaz2021')],
-                      [Button.url('Resmi Kanal📣', 'https://t.me/RiyaddBlog)],
+                      [Button.url('Resmi Kanal📣', 'https://t.me/RiyaddBlog')],
 		      [Button.url('Developer👨🏻‍💻', 'https://t.me/Thagiyevvvv')],
                     ),
                     link_preview=False
