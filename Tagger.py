@@ -27,7 +27,7 @@ async def start(event):
   await event.reply("**🌀KarabakhtaggerBot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/KarabakhTagerbot?startgroup=a')],
+		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/KarabakhTagbot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/KarabakhTeamm')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/RiyaddBlog')],
 		      [Button.url('Developer👨🏻‍💻', 'https://t.me/Thagiyevvvv')],
@@ -36,10 +36,10 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**🌀 KarabakhTaggerBot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
+  helptext = "**🌀 KarabakhTagBot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Məni Qruba At➕', 'https://t.me/Karabakhgerbot?startgroup=a')],
+                      [Button.url('Məni Qruba At➕', 'https://t.me/Karabakhtagbot?startgroup=a')],
                       [Button.url('Support👨‍💻', 'https://t.me/KarabakhTeamm')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/RiyaddBlog')],
 		      [Button.url('Developer🧑‍🔧', 'https://t.me/Thagiyevvvv')],
@@ -49,10 +49,10 @@ async def help(event):
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @KarabakhTagerBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
+  helptext = "**Çox özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @KarabakhTagBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Botu Qruba At➕', 'https://t.me/KarabakhTagerbot?startgroup=a')],
+                      [Button.url('Botu Qruba At➕', 'https://t.me/KarabakhTagbot?startgroup=a')],
                     ),
                     link_preview=False
                    )
